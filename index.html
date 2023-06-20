@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div class="score">
+            <span id="user_score">0</span>
+            <span id="total_score">/3</span>
+        </div>
+        
+        <div class="content" id="question_area">
+            <div id="question_text"></div>
+            <h4 id="final_score" class="hide"></h4>
+            <img id="image_area" alt="img_disney" width="200px" height="200px" />
+            <!-- <div class="options">
+                <button class="btn btn-option" id="True">True</button>
+                <button class="btn btn-option" id="False">False</button>
+
+                <button class="btn btn-option" id="mc">Option1</button>
+                <button class="btn btn-option" id="mc">Option2</button>
+                <button class="btn btn-option" id="mc">Option3</button>
+                <button class="btn btn-option" id="mc">Option4</button>
+            </div> -->
+
+            <div class="btn-container">
+            <button class="button" href="#" style="--color:#1e9bff;" id="True">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Button
+            </button>
+              <button class="button" href="#" style="--color: #ff1867;" id="False">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Button
+              </button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn-btn" id="restart">Restart</button>
+            <button class="btn-btn" id="next">Next</button>
+            <button class="btn-btn" id="submit">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
